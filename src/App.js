@@ -1,15 +1,11 @@
 import NavbarTop from "./components/Navbar";
-import Parameter from "./components/Parameter";
+import Monitoring from "./components/Monitoring";
 
 function App() {
   return (
-    <div>
+   <div className=' bg-blue-gray-400 min-h-screen pb-4'>
       <NavbarTop />
-      <Parameter 
-      name='Temperature'
-          value={10}
-          satuan={`\u00B0C`}
-          time={22} />
+     <Monitoring className='items-center' />
     </div>
   );
 }
