@@ -5,7 +5,11 @@ function App() {
   return (
     <div>
       <NavbarTop />
-      <Parameter />
+      <Parameter 
+      name='Temperature'
+          value={10}
+          satuan={`\u00B0C`}
+          time={22} />
     </div>
   );
 }
